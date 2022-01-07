@@ -1,25 +1,20 @@
-# rehype-parse
+# rehype-parse-ns
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
-[**rehype**][rehype] plugin to parse HTML.
+A fork of the original [**rehype**][rehype] plugin to parse HTML. This one allows uppercase tag names and attributes, useful when parsing non-standard html files. It is probably only useful for my usecase, which is performing a codemod on old html files from a legacy templating framework.
+
+
 [Parser][] for [**unified**][unified].
 Parses HTML to [**hast**][hast] syntax trees.
 Used in the [**rehype** processor][processor] but can be used on its own as
 well.
 
-If you’re in a browser, trust the content, and value a smaller bundle size, use
-[`rehype-dom-parse`][rehype-dom-parse].
-
 ## Sponsors
 
-Support this effort and give back by sponsoring on [OpenCollective][collective]!
+Support the team of the original Rehype package and give back by sponsoring them on [OpenCollective][collective]!
 
 <!--lint ignore no-html-->
 
@@ -72,7 +67,7 @@ Node 12+ is needed to use it and it must be `import`ed instead of `require`d.
 [npm][]:
 
 ```sh
-npm install rehype-parse
+npm install rehype-parse-ns
 ```
 
 ## Use
@@ -96,7 +91,7 @@ Say we have the following file, `example.html`, with a few errors:
 import {readSync} from 'to-vfile'
 import {reporter} from 'vfile-reporter'
 import {unified} from 'unified'
-import rehypeParse from 'rehype-parse'
+import rehypeParse from 'rehype-parse-ns'
 import rehypeRemark from 'rehype-remark'
 import remarkStringify from 'remark-stringify'
 

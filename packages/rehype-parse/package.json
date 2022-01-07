@@ -1,7 +1,7 @@
 {
-  "name": "rehype-parse",
+  "name": "rehype-parse-ns",
   "version": "8.0.3",
-  "description": "rehype plugin to parse HTML",
+  "description": "Non-standard fork of rehype plugin to parse HTML",
   "license": "MIT",
   "keywords": [
     "unified",
@@ -16,13 +16,8 @@
     "parse"
   ],
   "homepage": "https://github.com/rehypejs/rehype",
-  "repository": "https://github.com/rehypejs/rehype/tree/main/packages/rehype-parse",
-  "bugs": "https://github.com/rehypejs/rehype/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "repository": "https://github.com/AshtarCodes/rehype/tree/main/packages/rehype-parse",
+  "author": "Ashtar Paniagua <ashtarcodes@gmail.com>",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
@@ -38,7 +33,7 @@
   "dependencies": {
     "@types/hast": "^2.0.0",
     "hast-util-from-parse5": "^7.0.0",
-    "parse5": "^6.0.0",
+    "parse5-ns": "^6.0.1",
     "unified": "^10.0.0"
   },
   "scripts": {
