@@ -29,7 +29,7 @@
 
 // @ts-expect-error: remove when typed
 import Parser5 from 'parse5-ns/lib/parser/index.js'
-import {fromParse5} from 'hast-util-from-parse5'
+import {fromParse5} from 'hast-util-from-parse5-ns'
 import {errors} from './errors.js'
 
 const base = 'https://html.spec.whatwg.org/multipage/parsing.html#parse-error-'

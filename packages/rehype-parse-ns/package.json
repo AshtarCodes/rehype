@@ -1,6 +1,6 @@
 {
   "name": "rehype-parse-ns",
-  "version": "8.0.4",
+  "version": "8.0.5",
   "description": "Non-standard fork of rehype plugin to parse HTML",
   "license": "MIT",
   "keywords": [
@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "@types/hast": "^2.0.0",
-    "hast-util-from-parse5": "^7.0.0",
+    "hast-util-from-parse5-ns": "^7.1.1",
     "parse5-ns": "^6.0.2",
     "unified": "^10.0.0"
   },

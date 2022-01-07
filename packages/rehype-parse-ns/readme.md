@@ -4,7 +4,7 @@
 [![Coverage][coverage-badge]][coverage]
 [![Size][size-badge]][size]
 
-A fork of the original [**rehype**][rehype] plugin to parse HTML. This one allows uppercase tag names and attributes, useful when parsing non-standard html files. It is probably only useful for my usecase, which is performing a codemod on old html files from a legacy templating framework.
+A fork of the original [**rehype**][rehype] plugin to parse HTML. This one allows uppercase tag names and attributes, useful when parsing non-standard html files. See parse5-ns and hast-util-from-parse5-ns for more information.
 
 
 [Parser][] for [**unified**][unified].
