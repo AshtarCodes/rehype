@@ -1,12 +1,9 @@
-# rehype-stringify
+# rehype-stringify-ns
+A fork of the rehype plugin to serialize HTML, which allows you to pass your own subset of characters to encode.
 
 [![Build][build-badge]][build]
 [![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [**rehype**][rehype] plugin to serialize HTML.
 [Compiler][] for [**unified**][unified].

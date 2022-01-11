@@ -1,7 +1,7 @@
 {
-  "name": "rehype-stringify",
+  "name": "rehype-stringify-ns",
   "version": "9.0.2",
-  "description": "rehype plugin to serialize HTML",
+  "description": "A fork of the rehype plugin to serialize HTML, which allows you to pass your own subset of characters to encode.",
   "license": "MIT",
   "keywords": [
     "unified",
@@ -17,14 +17,8 @@
     "serialize",
     "compile"
   ],
-  "homepage": "https://github.com/rehypejs/rehype",
-  "repository": "https://github.com/rehypejs/rehype/tree/main/packages/rehype-stringify",
-  "bugs": "https://github.com/rehypejs/rehype/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/unified"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
+  "repository": "https://github.com/AshtarCodes/rehype/tree/main/packages/rehype-stringify",
+  "author": "Ashtar Paniagua <ashtarcodes@gmail.com>",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
@@ -39,7 +33,7 @@
   ],
   "dependencies": {
     "@types/hast": "^2.0.0",
-    "hast-util-to-html": "^8.0.0",
+    "hast-util-to-html-ns": "^8.0.4",
     "unified": "^10.0.0"
   },
   "scripts": {
